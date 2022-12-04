@@ -1,0 +1,11 @@
+[[hooks]]
+stage = "build"
+command = "npx"
+command_arguments = [
+    "tailwindcss",
+    "build",
+    "-i",
+    "index.css",
+    "-o",
+    "dist/.stage/tailwind.css",
+]
